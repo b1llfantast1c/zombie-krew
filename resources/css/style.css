@@ -1,4 +1,13 @@
-/* Universal Styles */
+/* Universal Styles and Fonts
+
+font-family: 'Fruktur', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Ewert', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Creepster', cursive;
+font-family: 'Rubik', sans-serif;
+
+*/
 
 html {
 
@@ -14,11 +23,19 @@ header {
 
 }
 
-nav {
+.navbar-expand-md .navbar-collapse {
+  justify-content: flex-end;
+}
 
+.navbar-nav {
+  align-items: center;
 }
 
 /* Supporting Sections */
+
+#banner {
+  background-color: green;
+}
 
 /* Footer */
 
